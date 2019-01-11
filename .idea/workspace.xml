@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="Eclipse Paho C" targetName="common_obj" />
+      <config projectName="Eclipse Paho C" targetName="test95" />
+      <config projectName="Eclipse Paho C" targetName="paho-mqtt3c" />
+      <config projectName="Eclipse Paho C" targetName="test_issue373" />
+      <config projectName="Eclipse Paho C" targetName="test45" />
+      <config projectName="Eclipse Paho C" targetName="test9" />
+      <config projectName="Eclipse Paho C" targetName="test8" />
+      <config projectName="Eclipse Paho C" targetName="test6" />
+      <config projectName="Eclipse Paho C" targetName="test4" />
+      <config projectName="Eclipse Paho C" targetName="test2" />
+      <config projectName="Eclipse Paho C" targetName="test1" />
+      <config projectName="Eclipse Paho C" targetName="Sha1Test" />
+      <config projectName="Eclipse Paho C" targetName="test15" />
+      <config projectName="Eclipse Paho C" targetName="MQTTVersion" />
+      <config projectName="Eclipse Paho C" targetName="test11" />
+      <config projectName="Eclipse Paho C" targetName="test10" />
+      <config projectName="Eclipse Paho C" targetName="Base64Test" />
+      <config projectName="Eclipse Paho C" targetName="thread" />
+      <config projectName="Eclipse Paho C" targetName="paho-mqtt3a" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="13fc98d7-cf4d-4eb3-8644-a80d7a11524c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Msgsever.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/Msgsever.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/samples/MQTTAsync_publish.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/samples/MQTTAsync_publish.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/samples/MQTTClient_publish.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/samples/MQTTClient_publish.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/samples/MQTTClient_subscribe.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/samples/MQTTClient_subscribe.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/samples/ran.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/samples/ran.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/samples/ran.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/samples/ran.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/samples/strSHA256.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/samples/strSHA256.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/samples/strSHA256.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/samples/strSHA256.h" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="1338687521">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="c" value="19" />
+          <entry key="h" value="10" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="1" />
+          <entry key="ObjectiveC" value="29" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="c" value="503" />
+          <entry key="h" value="36" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="ObjectiveC" value="539" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1896816738">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="c" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="ObjectiveC" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="c" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="ObjectiveC" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1595277806">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-415008060">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.23" value="2" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="c" value="645" />
+          <entry key="h" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="ObjectiveC" value="652" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="MQTTClient_publish" value="1" />
+          <entry key="Makefile2" value="1" />
+          <entry key="c" value="20" />
+          <entry key="h" value="10" />
+          <entry key="txt" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="2" />
+          <entry key="ObjectiveC" value="30" />
+          <entry key="PLAIN_TEXT" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/samples/MQTTClient_publish.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-510">
+              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+              <folding>
+                <element signature="e#1#19#0" expanded="true" />
+                <element signature="e#212#230#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/samples/MQTTClient_subscribe.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7740">
+              <caret line="258" selection-start-line="258" selection-end-line="258" />
+              <folding>
+                <element signature="e#2936#2954#0" expanded="true" />
+                <element signature="e#3147#3165#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/samples/msq.h" />
+        <option value="$PROJECT_DIR$/src/samples/MQTTClient_publish.h" />
+        <option value="$PROJECT_DIR$/src/samples/Mqttpulish.h" />
+        <option value="$PROJECT_DIR$/src/samples/Mqttpublish.h" />
+        <option value="$PROJECT_DIR$/src/samples/msgsever.c" />
+        <option value="$PROJECT_DIR$/src/samples/cJSON.h" />
+        <option value="$PROJECT_DIR$/src/samples/cJSON.c" />
+        <option value="$PROJECT_DIR$/src/samples/dateime.h" />
+        <option value="$PROJECT_DIR$/src/samples/ran.h" />
+        <option value="$PROJECT_DIR$/src/samples/ran.c" />
+        <option value="$PROJECT_DIR$/src/samples/strSHA256.h" />
+        <option value="$PROJECT_DIR$/src/samples/alarm.c" />
+        <option value="$PROJECT_DIR$/src/Msgsever.c" />
+        <option value="$PROJECT_DIR$/src/alarm.c" />
+        <option value="$PROJECT_DIR$/build/output/samples/alarm.c" />
+        <option value="$PROJECT_DIR$/src/samples/MQTTClient_subscribe.c" />
+        <option value="$PROJECT_DIR$/src/samples/MQTTAsync_publish.c" />
+        <option value="$PROJECT_DIR$/src/samples/MQTTClient_publish.c" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="202" />
+    <option name="y" value="189" />
+    <option name="width" value="770" />
+    <option name="height" value="505" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Eclipse Paho C" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mqtt.copy.c" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eclipse Paho C" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mqtt.copy.c" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eclipse Paho C" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mqtt.copy.c" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eclipse Paho C" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mqtt.copy.c" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/syy/paho.mqtt.c/src/samples/MQTTClient_publish_async.c" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/samples" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/samples" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Build All">
+    <configuration name="Base64Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Eclipse Paho C" TARGET_NAME="Base64Test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Eclipse Paho C" RUN_TARGET_NAME="Base64Test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/build/output/samples/MQTTClient_publish" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MQTTVersion" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Eclipse Paho C" TARGET_NAME="MQTTVersion" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Eclipse Paho C" RUN_TARGET_NAME="MQTTVersion">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sha1Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Eclipse Paho C" TARGET_NAME="Sha1Test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Eclipse Paho C" RUN_TARGET_NAME="Sha1Test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="common_obj" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Eclipse Paho C" TARGET_NAME="common_obj" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="paho-mqtt3a" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Eclipse Paho C" TARGET_NAME="paho-mqtt3a" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="paho-mqtt3c" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Eclipse Paho C" TARGET_NAME="paho-mqtt3c" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Eclipse Paho C" TARGET_NAME="test1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Eclipse Paho C" RUN_TARGET_NAME="test1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test10" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Eclipse Paho C" TARGET_NAME="test10" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Eclipse Paho C" RUN_TARGET_NAME="test10">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test11" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Eclipse Paho C" TARGET_NAME="test11" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Eclipse Paho C" RUN_TARGET_NAME="test11">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test15" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Eclipse Paho C" TARGET_NAME="test15" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Eclipse Paho C" RUN_TARGET_NAME="test15">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Eclipse Paho C" TARGET_NAME="test2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Eclipse Paho C" RUN_TARGET_NAME="test2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Eclipse Paho C" TARGET_NAME="test4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Eclipse Paho C" RUN_TARGET_NAME="test4">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test45" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Eclipse Paho C" TARGET_NAME="test45" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Eclipse Paho C" RUN_TARGET_NAME="test45">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test6" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Eclipse Paho C" TARGET_NAME="test6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Eclipse Paho C" RUN_TARGET_NAME="test6">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test8" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Eclipse Paho C" TARGET_NAME="test8" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Eclipse Paho C" RUN_TARGET_NAME="test8">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test9" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Eclipse Paho C" TARGET_NAME="test9" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Eclipse Paho C" RUN_TARGET_NAME="test9">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test95" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Eclipse Paho C" TARGET_NAME="test95" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Eclipse Paho C" RUN_TARGET_NAME="test95">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_issue373" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Eclipse Paho C" TARGET_NAME="test_issue373" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Eclipse Paho C" RUN_TARGET_NAME="test_issue373">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="thread" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Eclipse Paho C" TARGET_NAME="thread" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Eclipse Paho C" RUN_TARGET_NAME="thread">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.Base64Test" />
+      <item itemvalue="Application.common_obj" />
+      <item itemvalue="Application.MQTTVersion" />
+      <item itemvalue="Application.paho-mqtt3a" />
+      <item itemvalue="Application.paho-mqtt3c" />
+      <item itemvalue="Application.Sha1Test" />
+      <item itemvalue="Application.test1" />
+      <item itemvalue="Application.test10" />
+      <item itemvalue="Application.test11" />
+      <item itemvalue="Application.test15" />
+      <item itemvalue="Application.test2" />
+      <item itemvalue="Application.test4" />
+      <item itemvalue="Application.test45" />
+      <item itemvalue="Application.test6" />
+      <item itemvalue="Application.test8" />
+      <item itemvalue="Application.test9" />
+      <item itemvalue="Application.test95" />
+      <item itemvalue="Application.test_issue373" />
+      <item itemvalue="Application.thread" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13fc98d7-cf4d-4eb3-8644-a80d7a11524c" name="Default Changelist" comment="" />
+      <created>1537931935281</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537931935281</updated>
+      <workItem from="1537931939027" duration="989000" />
+      <workItem from="1538012952515" duration="79000" />
+      <workItem from="1538737278132" duration="2377000" />
+      <workItem from="1538962526754" duration="4922000" />
+      <workItem from="1539006863612" duration="18041000" />
+      <workItem from="1539138803688" duration="4218000" />
+      <workItem from="1539221143001" duration="2333000" />
+      <workItem from="1539264425276" duration="337000" />
+      <workItem from="1539266005391" duration="2082000" />
+      <workItem from="1539670723003" duration="1241000" />
+      <workItem from="1539831881579" duration="335000" />
+      <workItem from="1546747998130" duration="393000" />
+      <workItem from="1546748414503" duration="34000" />
+      <workItem from="1546749012595" duration="1251000" />
+      <workItem from="1546750287800" duration="42000" />
+      <workItem from="1546953682164" duration="734000" />
+      <workItem from="1546954686815" duration="7036000" />
+      <workItem from="1547000244495" duration="1956000" />
+      <workItem from="1547016302287" duration="5099000" />
+      <workItem from="1547207121240" duration="360000" />
+      <workItem from="1547207716215" duration="1670000" />
+      <workItem from="1547210881123" duration="190000" />
+      <workItem from="1547211077808" duration="442000" />
+      <workItem from="1547211618230" duration="135000" />
+      <workItem from="1547214066873" duration="728000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="57024000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="28" width="1920" height="1018" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2695187" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.674685" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.61970216" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.7262314" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3298969" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.21981777" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/MQTTProperties.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/samples/MQTTClient_publish_async.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MQTTClient.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="958" column="4" selection-start-line="958" selection-start-column="4" selection-end-line="958" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/samples/a.c" />
+    <entry file="file://$PROJECT_DIR$/src/samples/msgsever.c" />
+    <entry file="file://$PROJECT_DIR$/src/samples/Mqttpublish.h" />
+    <entry file="file://$PROJECT_DIR$/src/MQTTClient.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="324" column="2" selection-start-line="324" selection-start-column="2" selection-end-line="324" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/samples/msq.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/samples/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Base64.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/samples/cJSON.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3665">
+          <caret line="258" column="6" selection-start-line="258" selection-start-column="6" selection-end-line="258" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/samples/cJSON.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="767">
+          <caret line="2909" selection-start-line="2909" selection-end-line="2909" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/samples/datetime.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/samples/ran.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/samples/strSHA256.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/samples/ran.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/samples/StrSHA256.c" />
+    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5264" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15120" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Msgsever.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alarm.c" />
+    <entry file="file://$PROJECT_DIR$/build/output/samples/MQTTClient_publish">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1080" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Base64.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/samples/alarm.c" />
+    <entry file="file://$PROJECT_DIR$/src/samples/paho_c_pub.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8820" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/samples/MQTTAsync_publish.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="157" selection-start-line="157" selection-end-line="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/samples/datetime.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/samples/MQTTClient_publish.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding>
+            <element signature="e#1#19#0" expanded="true" />
+            <element signature="e#212#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/samples/MQTTClient_subscribe.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7740">
+          <caret line="258" selection-start-line="258" selection-end-line="258" />
+          <folding>
+            <element signature="e#2936#2954#0" expanded="true" />
+            <element signature="e#3147#3165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

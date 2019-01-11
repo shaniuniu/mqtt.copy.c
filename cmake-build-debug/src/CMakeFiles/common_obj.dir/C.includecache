@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/syy/mqtt.copy.c/src/Msgsever.c
+string.h
+-
+errno.h
+-
+unistd.h
+-
+sys/ipc.h
+-
+sys/msg.h
+-
+sys/types.h
+-
+
