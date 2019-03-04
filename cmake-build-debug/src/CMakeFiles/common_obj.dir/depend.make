@@ -221,6 +221,11 @@ src/CMakeFiles/common_obj.dir/Messages.c.o: ../src/Messages.c
 src/CMakeFiles/common_obj.dir/Messages.c.o: ../src/Messages.h
 
 src/CMakeFiles/common_obj.dir/Msgsever.c.o: ../src/Msgsever.c
+src/CMakeFiles/common_obj.dir/Msgsever.c.o: ../src/cJSON.c
+src/CMakeFiles/common_obj.dir/Msgsever.c.o: ../src/cJSON.h
+src/CMakeFiles/common_obj.dir/Msgsever.c.o: ../src/datetime.c
+src/CMakeFiles/common_obj.dir/Msgsever.c.o: ../src/datetime.h
+src/CMakeFiles/common_obj.dir/Msgsever.c.o: ../src/msq.h
 
 src/CMakeFiles/common_obj.dir/SHA1.c.o: ../src/SHA1.c
 src/CMakeFiles/common_obj.dir/SHA1.c.o: ../src/SHA1.h

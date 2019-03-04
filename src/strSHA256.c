@@ -52,6 +52,6 @@ extern char* StrSHA256(const char *str, int length, char *sha256){
         H0 += A, H1 += B, H2 += C, H3 += D, H4 += E, H5 += F, H6 += G, H7 += H;
     }
     free(pp - l);
-    sprintf(sha256, "%08x%08x%08x%08x%08x%08x%08x%08x", H0, H1, H2, H3, H4, H5, H6, H7);
+    sprintf(sha256, "%08x%08x%08x%08x%08x%08x%08x%08x", (unsigned int)H0,(unsigned int) H1, (unsigned int)H2, (unsigned int)H3,(unsigned int) H4, (unsigned int)H5,(unsigned int) H6,(unsigned int) H7);
     return sha256;
 }

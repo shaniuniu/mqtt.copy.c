@@ -179,7 +179,7 @@ IF (PAHO_WITH_SSL)
 ENDIF()
 
 # Base64 test
-ADD_EXECUTABLE( Base64Test EXCLUDE_FROM_ALL Base64.c Base64.h samples/msq.h samples/cJSON.h samples/cJSON.c samples/datetime.h samples/ran.h samples/strSHA256.h samples/strSHA256.c)
+ADD_EXECUTABLE( Base64Test EXCLUDE_FROM_ALL Base64.c Base64.h cJSON.c datetime.h ran.h strSHA256.h strSHA256.c Msgclient.c)
 TARGET_COMPILE_DEFINITIONS( Base64Test PUBLIC "-DBASE64_TEST" )
 IF (PAHO_WITH_SSL)
 	ADD_EXECUTABLE( Base64TestOpenSSL EXCLUDE_FROM_ALL Base64.c Base64.h )

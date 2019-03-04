@@ -1068,6 +1068,9 @@
 		<Unit filename="/home/syy/mqtt.copy.c/src/Messages.h">
 			<Option target="common_obj"/>
 		</Unit>
+		<Unit filename="/home/syy/mqtt.copy.c/src/Msgclient.c">
+			<Option target="Base64Test"/>
+		</Unit>
 		<Unit filename="/home/syy/mqtt.copy.c/src/Msgsever.c">
 			<Option target="common_obj"/>
 		</Unit>
@@ -1116,25 +1119,22 @@
 		<Unit filename="/home/syy/mqtt.copy.c/src/WebSocket.h">
 			<Option target="common_obj"/>
 		</Unit>
-		<Unit filename="/home/syy/mqtt.copy.c/src/samples/cJSON.c">
+		<Unit filename="/home/syy/mqtt.copy.c/src/cJSON.c">
 			<Option target="Base64Test"/>
 		</Unit>
-		<Unit filename="/home/syy/mqtt.copy.c/src/samples/cJSON.h">
+		<Unit filename="/home/syy/mqtt.copy.c/src/cJSON.h">
 			<Option target="Base64Test"/>
 		</Unit>
-		<Unit filename="/home/syy/mqtt.copy.c/src/samples/datetime.h">
+		<Unit filename="/home/syy/mqtt.copy.c/src/datetime.h">
 			<Option target="Base64Test"/>
 		</Unit>
-		<Unit filename="/home/syy/mqtt.copy.c/src/samples/msq.h">
+		<Unit filename="/home/syy/mqtt.copy.c/src/ran.h">
 			<Option target="Base64Test"/>
 		</Unit>
-		<Unit filename="/home/syy/mqtt.copy.c/src/samples/ran.h">
+		<Unit filename="/home/syy/mqtt.copy.c/src/strSHA256.c">
 			<Option target="Base64Test"/>
 		</Unit>
-		<Unit filename="/home/syy/mqtt.copy.c/src/samples/strSHA256.c">
-			<Option target="Base64Test"/>
-		</Unit>
-		<Unit filename="/home/syy/mqtt.copy.c/src/samples/strSHA256.h">
+		<Unit filename="/home/syy/mqtt.copy.c/src/strSHA256.h">
 			<Option target="Base64Test"/>
 		</Unit>
 		<Unit filename="/home/syy/mqtt.copy.c/src/utf-8.c">

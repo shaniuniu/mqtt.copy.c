@@ -741,6 +741,33 @@ Messages.c.s:
 	cd /home/syy/mqtt.copy.c/cmake-build-debug && $(MAKE) -f src/CMakeFiles/common_obj.dir/build.make src/CMakeFiles/common_obj.dir/Messages.c.s
 .PHONY : Messages.c.s
 
+Msgclient.o: Msgclient.c.o
+
+.PHONY : Msgclient.o
+
+# target to build an object file
+Msgclient.c.o:
+	cd /home/syy/mqtt.copy.c/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Base64Test.dir/build.make src/CMakeFiles/Base64Test.dir/Msgclient.c.o
+.PHONY : Msgclient.c.o
+
+Msgclient.i: Msgclient.c.i
+
+.PHONY : Msgclient.i
+
+# target to preprocess a source file
+Msgclient.c.i:
+	cd /home/syy/mqtt.copy.c/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Base64Test.dir/build.make src/CMakeFiles/Base64Test.dir/Msgclient.c.i
+.PHONY : Msgclient.c.i
+
+Msgclient.s: Msgclient.c.s
+
+.PHONY : Msgclient.s
+
+# target to generate assembly for a file
+Msgclient.c.s:
+	cd /home/syy/mqtt.copy.c/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Base64Test.dir/build.make src/CMakeFiles/Base64Test.dir/Msgclient.c.s
+.PHONY : Msgclient.c.s
+
 Msgsever.o: Msgsever.c.o
 
 .PHONY : Msgsever.o
@@ -960,59 +987,59 @@ WebSocket.c.s:
 	cd /home/syy/mqtt.copy.c/cmake-build-debug && $(MAKE) -f src/CMakeFiles/common_obj.dir/build.make src/CMakeFiles/common_obj.dir/WebSocket.c.s
 .PHONY : WebSocket.c.s
 
-samples/cJSON.o: samples/cJSON.c.o
+cJSON.o: cJSON.c.o
 
-.PHONY : samples/cJSON.o
-
-# target to build an object file
-samples/cJSON.c.o:
-	cd /home/syy/mqtt.copy.c/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Base64Test.dir/build.make src/CMakeFiles/Base64Test.dir/samples/cJSON.c.o
-.PHONY : samples/cJSON.c.o
-
-samples/cJSON.i: samples/cJSON.c.i
-
-.PHONY : samples/cJSON.i
-
-# target to preprocess a source file
-samples/cJSON.c.i:
-	cd /home/syy/mqtt.copy.c/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Base64Test.dir/build.make src/CMakeFiles/Base64Test.dir/samples/cJSON.c.i
-.PHONY : samples/cJSON.c.i
-
-samples/cJSON.s: samples/cJSON.c.s
-
-.PHONY : samples/cJSON.s
-
-# target to generate assembly for a file
-samples/cJSON.c.s:
-	cd /home/syy/mqtt.copy.c/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Base64Test.dir/build.make src/CMakeFiles/Base64Test.dir/samples/cJSON.c.s
-.PHONY : samples/cJSON.c.s
-
-samples/strSHA256.o: samples/strSHA256.c.o
-
-.PHONY : samples/strSHA256.o
+.PHONY : cJSON.o
 
 # target to build an object file
-samples/strSHA256.c.o:
-	cd /home/syy/mqtt.copy.c/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Base64Test.dir/build.make src/CMakeFiles/Base64Test.dir/samples/strSHA256.c.o
-.PHONY : samples/strSHA256.c.o
+cJSON.c.o:
+	cd /home/syy/mqtt.copy.c/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Base64Test.dir/build.make src/CMakeFiles/Base64Test.dir/cJSON.c.o
+.PHONY : cJSON.c.o
 
-samples/strSHA256.i: samples/strSHA256.c.i
+cJSON.i: cJSON.c.i
 
-.PHONY : samples/strSHA256.i
+.PHONY : cJSON.i
 
 # target to preprocess a source file
-samples/strSHA256.c.i:
-	cd /home/syy/mqtt.copy.c/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Base64Test.dir/build.make src/CMakeFiles/Base64Test.dir/samples/strSHA256.c.i
-.PHONY : samples/strSHA256.c.i
+cJSON.c.i:
+	cd /home/syy/mqtt.copy.c/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Base64Test.dir/build.make src/CMakeFiles/Base64Test.dir/cJSON.c.i
+.PHONY : cJSON.c.i
 
-samples/strSHA256.s: samples/strSHA256.c.s
+cJSON.s: cJSON.c.s
 
-.PHONY : samples/strSHA256.s
+.PHONY : cJSON.s
 
 # target to generate assembly for a file
-samples/strSHA256.c.s:
-	cd /home/syy/mqtt.copy.c/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Base64Test.dir/build.make src/CMakeFiles/Base64Test.dir/samples/strSHA256.c.s
-.PHONY : samples/strSHA256.c.s
+cJSON.c.s:
+	cd /home/syy/mqtt.copy.c/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Base64Test.dir/build.make src/CMakeFiles/Base64Test.dir/cJSON.c.s
+.PHONY : cJSON.c.s
+
+strSHA256.o: strSHA256.c.o
+
+.PHONY : strSHA256.o
+
+# target to build an object file
+strSHA256.c.o:
+	cd /home/syy/mqtt.copy.c/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Base64Test.dir/build.make src/CMakeFiles/Base64Test.dir/strSHA256.c.o
+.PHONY : strSHA256.c.o
+
+strSHA256.i: strSHA256.c.i
+
+.PHONY : strSHA256.i
+
+# target to preprocess a source file
+strSHA256.c.i:
+	cd /home/syy/mqtt.copy.c/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Base64Test.dir/build.make src/CMakeFiles/Base64Test.dir/strSHA256.c.i
+.PHONY : strSHA256.c.i
+
+strSHA256.s: strSHA256.c.s
+
+.PHONY : strSHA256.s
+
+# target to generate assembly for a file
+strSHA256.c.s:
+	cd /home/syy/mqtt.copy.c/cmake-build-debug && $(MAKE) -f src/CMakeFiles/Base64Test.dir/build.make src/CMakeFiles/Base64Test.dir/strSHA256.c.s
+.PHONY : strSHA256.c.s
 
 utf-8.o: utf-8.c.o
 
@@ -1113,6 +1140,9 @@ help:
 	@echo "... Messages.o"
 	@echo "... Messages.i"
 	@echo "... Messages.s"
+	@echo "... Msgclient.o"
+	@echo "... Msgclient.i"
+	@echo "... Msgclient.s"
 	@echo "... Msgsever.o"
 	@echo "... Msgsever.i"
 	@echo "... Msgsever.s"
@@ -1137,12 +1167,12 @@ help:
 	@echo "... WebSocket.o"
 	@echo "... WebSocket.i"
 	@echo "... WebSocket.s"
-	@echo "... samples/cJSON.o"
-	@echo "... samples/cJSON.i"
-	@echo "... samples/cJSON.s"
-	@echo "... samples/strSHA256.o"
-	@echo "... samples/strSHA256.i"
-	@echo "... samples/strSHA256.s"
+	@echo "... cJSON.o"
+	@echo "... cJSON.i"
+	@echo "... cJSON.s"
+	@echo "... strSHA256.o"
+	@echo "... strSHA256.i"
+	@echo "... strSHA256.s"
 	@echo "... utf-8.o"
 	@echo "... utf-8.i"
 	@echo "... utf-8.s"

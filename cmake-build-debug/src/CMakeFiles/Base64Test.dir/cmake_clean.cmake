@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Base64Test.dir/Base64.c.o"
-  "CMakeFiles/Base64Test.dir/samples/cJSON.c.o"
-  "CMakeFiles/Base64Test.dir/samples/strSHA256.c.o"
+  "CMakeFiles/Base64Test.dir/cJSON.c.o"
+  "CMakeFiles/Base64Test.dir/strSHA256.c.o"
+  "CMakeFiles/Base64Test.dir/Msgclient.c.o"
   "Base64Test.pdb"
   "Base64Test"
 )

@@ -5,8 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/syy/mqtt.copy.c/src/Base64.c" "/home/syy/mqtt.copy.c/cmake-build-debug/src/CMakeFiles/Base64Test.dir/Base64.c.o"
-  "/home/syy/mqtt.copy.c/src/samples/cJSON.c" "/home/syy/mqtt.copy.c/cmake-build-debug/src/CMakeFiles/Base64Test.dir/samples/cJSON.c.o"
-  "/home/syy/mqtt.copy.c/src/samples/strSHA256.c" "/home/syy/mqtt.copy.c/cmake-build-debug/src/CMakeFiles/Base64Test.dir/samples/strSHA256.c.o"
+  "/home/syy/mqtt.copy.c/src/Msgclient.c" "/home/syy/mqtt.copy.c/cmake-build-debug/src/CMakeFiles/Base64Test.dir/Msgclient.c.o"
+  "/home/syy/mqtt.copy.c/src/cJSON.c" "/home/syy/mqtt.copy.c/cmake-build-debug/src/CMakeFiles/Base64Test.dir/cJSON.c.o"
+  "/home/syy/mqtt.copy.c/src/strSHA256.c" "/home/syy/mqtt.copy.c/cmake-build-debug/src/CMakeFiles/Base64Test.dir/strSHA256.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

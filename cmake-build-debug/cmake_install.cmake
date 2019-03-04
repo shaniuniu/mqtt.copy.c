@@ -44,15 +44,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/syy/mqtt.copy.c/src/samples/MQTTClient_publish.c"
     "/home/syy/mqtt.copy.c/src/samples/MQTTClient_publish_async.c"
     "/home/syy/mqtt.copy.c/src/samples/MQTTClient_subscribe.c"
-    "/home/syy/mqtt.copy.c/src/samples/cJSON.c"
-    "/home/syy/mqtt.copy.c/src/samples/datetime.c"
     "/home/syy/mqtt.copy.c/src/samples/paho_c_pub.c"
     "/home/syy/mqtt.copy.c/src/samples/paho_c_sub.c"
     "/home/syy/mqtt.copy.c/src/samples/paho_cs_pub.c"
     "/home/syy/mqtt.copy.c/src/samples/paho_cs_sub.c"
     "/home/syy/mqtt.copy.c/src/samples/pubsub_opts.c"
-    "/home/syy/mqtt.copy.c/src/samples/ran.c"
-    "/home/syy/mqtt.copy.c/src/samples/strSHA256.c"
     )
 endif()
 
