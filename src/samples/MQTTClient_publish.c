@@ -96,7 +96,7 @@ int main(void) {
         char *b=clientMsg.msgText;
         printf("\n%s\n",b);
         item=cJSON_Parse(b);
-        cJSON_AddItemToObject(root, "data", item);//root节点下添加semantic节点
+        cJSON_AddItemToObject(root, "data", item);//root节点下添加item节点
         char *last = cJSON_PrintUnformatted(item);
         char text[200];
         char str1[] = "userid=1&timestamp=";
